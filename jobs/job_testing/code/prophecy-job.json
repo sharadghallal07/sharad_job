@@ -1,0 +1,280 @@
+{
+  "metainfo" : {
+    "type" : "Databricks",
+    "fabricId" : "13085",
+    "jobId" : "jobs/job_testing",
+    "name" : "job_testing",
+    "schedule" : "None",
+    "scheduleTimeZone" : "UTC",
+    "jobClusterMode" : {
+      "clusterMode" : "Single"
+    },
+    "enabled" : false,
+    "defaultClusterSize" : "small",
+    "alerting" : {
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false
+    },
+    "maxConcurrentRuns" : 1,
+    "processDefaultSettings" : {
+      "type" : "Inherited",
+      "retries" : 0,
+      "alerting" : {
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false
+      }
+    },
+    "availableFabrics" : [ {
+      "id" : "10150",
+      "name" : "suraj_test_dev",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    }, {
+      "id" : "10892",
+      "name" : "fabric_cloudaeon_prophecy_workshop",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    }, {
+      "id" : "11820",
+      "name" : "fab_fivetran_Prophecy",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    }, {
+      "id" : "10064",
+      "name" : "Fabric_santosh2_git",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    }, {
+      "id" : "13085",
+      "name" : "Job_test",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    }, {
+      "id" : "11207",
+      "name" : "fbr_testCase01",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    }, {
+      "id" : "10146",
+      "name" : "suraj_dev",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    }, {
+      "id" : "10585",
+      "name" : "workshop-fabric",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    }, {
+      "id" : "10592",
+      "name" : "workshop-fabric",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    }, {
+      "id" : "9997",
+      "name" : "fabric_santosh",
+      "clusterSizes" : {
+        "default" : "Prophecy - Santosh shared cluster minimal",
+        "availableClusterSizes" : [ "Prophecy - Santosh shared cluster minimal" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    }, {
+      "id" : "10089",
+      "name" : "Fabric_sharad",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    } ]
+  },
+  "processes" : {
+    "W6fIpAIfgWwyOQonMvV-c$$PkwrKXoDd6UrNLqJIP9Ab" : {
+      "id" : "W6fIpAIfgWwyOQonMvV-c$$PkwrKXoDd6UrNLqJIP9Ab",
+      "component" : "Pipeline",
+      "metadata" : {
+        "label" : "Pipeline_01",
+        "slug" : "Pipeline_01",
+        "x" : 60,
+        "y" : 100
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "VxxSNMsURYIxaGCTXaeDE$$9rc_aN8S7U8BODViqIY2o",
+          "slug" : ""
+        } ],
+        "outputs" : [ {
+          "id" : "l64gkd3cWnKDfZ4arOTP1$$ytqNzIU77whDidZbI7zW7",
+          "slug" : ""
+        } ]
+      },
+      "settings" : {
+        "type" : "Inherited",
+        "alerting" : {
+          "emails" : "",
+          "onStart" : false,
+          "onSuccess" : false,
+          "onFailure" : false
+        }
+      },
+      "properties" : {
+        "pipelineId" : "pipelines/pl_job_test01",
+        "configurations" : {
+          "schema" : [ ],
+          "instances" : {
+            "proj_job_test01" : [ "default" ]
+          },
+          "overrides" : { },
+          "selectedInstance" : "default"
+        }
+      },
+      "parent" : "Um6Dk3pQULExKRuyHKdx2"
+    },
+    "290AxtTx3e9e3ILBXMPop$$czRK_83wO1b8XTMxAwrG9" : {
+      "id" : "290AxtTx3e9e3ILBXMPop$$czRK_83wO1b8XTMxAwrG9",
+      "component" : "Pipeline",
+      "metadata" : {
+        "label" : "Pipeline_02",
+        "slug" : "Pipeline_02",
+        "x" : 280,
+        "y" : 100
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "rDEhWccmx9OnhT-bf3ocA$$P8NCcMUKRnIO1b8hySN3x",
+          "slug" : ""
+        } ],
+        "outputs" : [ {
+          "id" : "snd5FmaKhe0SZc6eqrjpB$$om7EzzXpZu1zICSuYTip6",
+          "slug" : ""
+        } ]
+      },
+      "settings" : {
+        "type" : "Inherited",
+        "alerting" : {
+          "emails" : "",
+          "onStart" : false,
+          "onSuccess" : false,
+          "onFailure" : false
+        }
+      },
+      "properties" : {
+        "pipelineId" : "pipelines/pl_job_test02",
+        "configurations" : {
+          "schema" : [ ],
+          "instances" : {
+            "proj_job_test01" : [ "default" ]
+          },
+          "overrides" : { },
+          "selectedInstance" : "default"
+        }
+      },
+      "parent" : "Um6Dk3pQULExKRuyHKdx2"
+    },
+    "Um6Dk3pQULExKRuyHKdx2" : {
+      "id" : "Um6Dk3pQULExKRuyHKdx2",
+      "component" : "Cluster",
+      "metadata" : {
+        "label" : "Cluster_1",
+        "slug" : "Cluster_1",
+        "x" : -360,
+        "y" : -240,
+        "width" : 400,
+        "height" : 280
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ ]
+      },
+      "properties" : {
+        "clusterSize" : "small"
+      }
+    }
+  },
+  "connections" : [ ]
+}
